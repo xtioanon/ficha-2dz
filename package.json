@@ -2,7 +2,7 @@
   "name": "ficha-2dz",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://xtioanon.github.io/ficha-2dz",
+  "homepage": "https://xtioanon.github.io/ficha-2dz/",
   "type": "module",
   "scripts": {
     "dev": "vite",

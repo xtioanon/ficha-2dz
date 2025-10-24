@@ -27,7 +27,7 @@ function App() {
 
   return (
     <>
-    <div className="justify-center flex flex-col bg-amber-50 m-10 space-y-1 border-2 border-black h-screen align-top">
+    <div className="justify-center flex flex-col bg-amber-50 m-10 space-y-1 border-2 border-black h-screen align-top overflow-auto">
       {page === 0 ?
       <><Ficha personagem={personagem} onChange={handleChange}/> <NextPage onPageChange={() => {setPage(1)}} /></> :
       <><Profile personagem={personagem} onChange={handleChange}/> <PreviousPage onPageChange={() => {setPage(0)}} /></>}
